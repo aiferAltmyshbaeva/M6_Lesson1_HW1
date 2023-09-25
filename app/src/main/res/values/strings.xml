@@ -5,4 +5,18 @@
     <string name="title">Title</string>
     <string name="save">SAVE</string>
     <string name="add_task">Add Task</string>
+    <string name="title_cannot_be_empty">Title cannot be empty</string>
+    <string name="delete_task">Delete Task</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="update">UPDATE</string>
+    <string name="all_tasks">All Tasks</string>
+    <string name="completed_tasks">Completed Tasks</string>
+    <string name="uncompleted_tasks">Uncompleted Tasks</string>
+
+    <string-array name="filter_options">
+        <item>@string/all_tasks</item>
+        <item>@string/completed_tasks</item>
+        <item>@string/uncompleted_tasks</item>
+    </string-array>
 </resources>

@@ -1,11 +1,9 @@
 package com.example.m6_lesson1_hw1
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
+import com.example.m6_lesson1_hw1.core.base.BaseActivity
+import com.example.m6_lesson1_hw1.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-    }
+class MainActivity : BaseActivity<ActivityMainBinding>() {
+    override fun inflateViewBinding() = ActivityMainBinding.inflate(layoutInflater)
+
 }
